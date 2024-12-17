@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read data from Excel file
-file_path = "C:/Users/Dayana/Documents/1. PHD - done/2. Propuesta de disertacion and papers/2. LS Paper/Figure 7 modifiedX.xlsx"
+file_path = "Data.xlsx"
 data = pd.read_excel(file_path)
 
 # Print data for debugging
