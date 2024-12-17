@@ -110,7 +110,7 @@ cd land_subsidence_graphs
 - Simulated Data: simulated_data.csv
 
 ### 2. Run the script
-Scripts: Figure1.py (Visualization of the experimental and visualization data)
+Scripts: Landsubsidencegraph.py (Visualization of the experimental and siimulation data)
 
 ## Results
 ![image](https://github.com/user-attachments/assets/de25bb89-9db9-4d73-b15c-76bd5db313aa) Figure 2. Vertical displacement in the coarse sand for the first experimental scenario.
