@@ -106,11 +106,10 @@ cd land_subsidence_graphs
 ## Usage
 ### 1. Organize your data
 
-- Experimental Data: experimental_data.csv
-- Simulated Data: simulated_data.csv
+- Experimental and Simulation Data in one spreadsheet: Data.xlsx
 
 ### 2. Run the script
-Scripts: Landsubsidencegraph.py (Visualization of the experimental and siimulation data)
+Scripts: [Landsubsidencegraph.py](https://github.com/dayanachaladiaz/land_subsidence_graphs/blob/main/Land%20subsidence%20graph.py) (Visualization of the experimental and siimulation data)
 
 ## Results
 ![image](https://github.com/user-attachments/assets/de25bb89-9db9-4d73-b15c-76bd5db313aa) Figure 2. Vertical displacement in the coarse sand for the first experimental scenario.
