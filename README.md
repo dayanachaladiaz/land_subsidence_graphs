@@ -102,9 +102,9 @@ Ensure you have the following installed:
 
 ### 2. Clone the repository 
 
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/dayanachaladiaz/land_subsidence_graphs.git
 
-cd repository-name
+cd land_subsidence_graphs
 
 ### 3. Organize your data
 
