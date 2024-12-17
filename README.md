@@ -6,12 +6,9 @@
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Technologies](#technologies)
-6. [Examples](#examples)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+4. [Usage](#Usage)
+5. [Results](#Results)
+6. [License](#license)
 
     ---
 
@@ -106,9 +103,29 @@ git clone https://github.com/dayanachaladiaz/land_subsidence_graphs.git
 
 cd land_subsidence_graphs
 
-### 3. Organize your data
+## Usage
+### 1. Organize your data
 
 - Experimental Data: experimental_data.csv
-- Simulated Data: simulated_data.csv 
+- Simulated Data: simulated_data.csv
+
+### 2. Run the script
+Scripts: Figure1.py (Visualization of the experimental and visualization data)
+
+## Results
+![image](https://github.com/user-attachments/assets/de25bb89-9db9-4d73-b15c-76bd5db313aa)
+
+## License
+Copyright (c) 2024 Dayana Chala
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
 
+
+### 5. View results
+
+### 6. Customize parameters
