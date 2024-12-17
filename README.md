@@ -98,9 +98,17 @@ Ensure you have the following installed:
 - **Python 3.8+**
 - **pip** (Python package installer)
 - **Git**
+- **Matplotlib**, **NumPy**, and **Pandas** (for graphing and data analysis)
 
+### 2. Clone the repository 
 
+git clone https://github.com/username/repository-name.git
 
+cd repository-name
 
+### 3. Organize your data
+
+- Experimental Data: experimental_data.csv
+- Simulated Data: simulated_data.csv 
 
 
