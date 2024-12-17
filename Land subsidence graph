@@ -1,53 +1,40 @@
-# Import pandas
+# Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# # Read csv file
-data = pd.read_excel("C:/Users/Dayana/Documents/1. PHD/2. Propuesta de disertacion and papers/2. LS Paper/Figure 3X.xlsx")
+# Read data from Excel file
+file_path = "C:/Users/Dayana/Documents/1. PHD - done/2. Propuesta de disertacion and papers/2. LS Paper/Figure 7 modifiedX.xlsx"
+data = pd.read_excel(file_path)
+
+# Print data for debugging
 print(data)
-X=data["X"]
-X1=data["Terzaghi"]
-#y1=data["Y1"]
-#y11=data["Y11"]
-#y2=data["Y2"]
-#y21=data["Y21"]
-Min=data["Min"]
-Max=data["Max"]
-#Min1=data["Min1"]
-#Max1=data["Max1"]
-#y=data["S=3e-4"]
-#S2= data['A']
-S3=data["S=9e-4"]
-S4=data["S=7e-4"]
-S5=data["S=1e-3"]
-#y3=data["Y3"]
-#y4=data["Y4"]
 
+# Extract relevant columns from the dataset
+X = data["X"]
+X1 = data["Terzaghi"]
+Min = data["Min"]
+Max = data["Max"]
+Min1 = data["Min1"]
+Max1 = data["Max1"]
+y = data["S=3e-4"]
+y2 = data["Y2"]
+y3 = data["Y3"]
+y4 = data["Y4"]
 
-# Set lower and upper bounds of ribbon
+# Plot configuration
+plt.figure(figsize=(10, 6))  # Set figure size
 
-#fig, data=plt.subplots()
-#plt.fill_between(X, Max, Min, data=data, color='gray', alpha=0.2, label='Experiments without sensor 2')
-plt.fill_between(X, Max, Min, data=data, color='gray', alpha=0.2, label='Experiments')
-#plt.plot(X1,y2,color='black',label='Biot S=1.91e-4')
-#plt.plot(X1,y21,color='purple',label='Biot S=3e-4')
-plt.plot(X,S3,color='black',linestyle='-',marker='', label='Terzaghi S=9 x $10^{-4}$')
-plt.plot(X,S4,color='black',linestyle='--', marker='.', label='Terzaghi S=7 x $10^{-4}$')
-plt.plot(X,S5,color='black',linestyle='--', marker='*', label='Terzaghi S=1 x $10^{-3}$')
+# Add shaded region for uncertainty based on the experimental results (ribbon)
+plt.fill_between(X, Max1, Min1, color='gray', alpha=0.2, label='Experiments with sensor 2')
 
-#plt.plot(X1,y3,color='purple',label='Terzaghi S=3.9e-4')
-#plt.plot(X1,y4,color='pink',linestyle='--',label='Terzaghi S=3.7e-4')
+# Plot lines for the simulated results using Terzaghi models
+plt.plot(X, y, color='black', linestyle='--', marker='.', label='Terzaghi S=3e-4')
+plt.plot(X, y2, color='black', linestyle='-', label='Terzaghi S=3.5e-4')
 
+# Add labels and legend
 plt.xlabel("Time (h)")
 plt.ylabel("Vertical displacement (mm)")
-plt.legend()
+plt.legend(loc='upper left')
+
+# Display the plot
 plt.show()
-
-# Add point-estimate reference line
-#plt.plot(x='X',y='Min')
-#plt.plot('x','Media','w-', data=data)
-#plt.show()
-
-# # Plot concentration vs. time
-#data.plot(x='X', y='Min', kind='scatter')
-#plt.show()
