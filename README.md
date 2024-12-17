@@ -113,7 +113,17 @@ cd land_subsidence_graphs
 Scripts: Figure1.py (Visualization of the experimental and visualization data)
 
 ## Results
-![image](https://github.com/user-attachments/assets/de25bb89-9db9-4d73-b15c-76bd5db313aa)
+![image](https://github.com/user-attachments/assets/de25bb89-9db9-4d73-b15c-76bd5db313aa) Figure 2. Vertical displacement in the coarse sand for the first experimental scenario.
+
+- The average absolute error of the numerical model to recreate the experimental results
+of land subsidence was 0.14 mm for the first scenario of coarse sand, 0.34 mm for
+the second scenario of coarse sand, 0.33 mm first the first scenario of fine sand, and
+0.29 mm for the second scenario of fine sand. The maximum discrepancy of 0.34 mm
+was obtained for the second scenario of coarse sand where the maximum experimental
+subsidence was 3.86 mm.
+
+- During the continued cycles of recharge and exploitation, both sands showed continued compaction that kept increasing over time. However, the deformation of coarse sand occurred at higher rates than for the fine sand. At times when the hydraulic head was maintained constant, the deformation for the coarse sand was significantly
+reduced, and for fine sands, it evidenced a delayed response.
 
 ## License
 Copyright (c) 2024 Dayana Chala
@@ -125,7 +135,3 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
 
-
-### 5. View results
-
-### 6. Customize parameters
